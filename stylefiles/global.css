@@ -1,15 +1,15 @@
 body {
     margin-left: auto;
     margin-right: auto;
-	min-width: 800px;
-	max-width: 800px;
+	min-width: 830px;
+	max-width: 830px;
     overflow-y: scroll;
 	overflow:auto;
     font-family: arial; /*georgia, arial, serif*/
 }
 
 div.central_body {
-    max-width: 48em;
+    max-width: 50em;
     margin: 0.5em auto;
     padding: 0 0.5em;
 }
@@ -26,26 +26,7 @@ div.header{
     width: 100%; /* 占满屏幕宽度 */
     box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果（可选） */
 }
-div.header_introhome{
-    max-width: 0em;
-    margin: 0.5em 0.5em;
-    display: flex; /* 启用 Flexbox */
-    justify-content: flex-start; /* 等距分布子元素 */
-    background-color: #f8f9fa; /* 导航栏背景颜色（可选） */
-    padding: 1px 0; /* 导航栏上下内边距 */
-    top: 0px; /* 紧贴页面顶部 */
-    width: 100%; /* 占满屏幕宽度 */
-}
-div.header_intropub{
-    max-width: 0em;
-    margin: 0.5em 0.5em;
-    display: flex; /* 启用 Flexbox */
-    justify-content: flex-start; /* 等距分布子元素 */
-    background-color: #f8f9fa; /* 导航栏背景颜色（可选） */
-    padding: 1px 0; /* 导航栏上下内边距 */
-    top: 0px; /* 紧贴页面顶部 */
-    width: 100%; /* 占满屏幕宽度 */
-}
+
 
 h3.section {
     color: #034f84/*#539ef6*/;
