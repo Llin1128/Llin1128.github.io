@@ -1,0 +1,66 @@
+div.photo_intro {
+    margin: 0em 0;
+}
+
+img.photo {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0.0em;
+    margin-bottom: 0.4em;
+}
+
+div.intro {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    line-height: 1.4;
+}
+
+div.about {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 1.5;
+}
+
+div.new {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 0em;
+    margin-bottom:  0em;
+}
+
+
+div.container {
+    overflow: hidden; /* 清除浮动 */
+  }
+div.main {
+    float: left;
+    width: 46%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.sidebar {
+    float: right;
+    width: 54%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span.intro_name {
+    font-weight: bold;
+    font-size: large;
+}
+
+span.intro_affiliation {
+    font-weight: bold;
+}
+
+img.book {
+    height: 12.5em;
+    margin-right: 1em;
+}
